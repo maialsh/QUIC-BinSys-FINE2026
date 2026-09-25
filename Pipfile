@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+lief = "*"
+pyelftools = "*"
+angr = "*"
+langchain = "*"
+langchain-ollama = "*"
+langchain-openai = "*"
+capstone = "*"
+psutil = "*"
+docker = "*"
+litellm = "*"
+langgraph = "*"
+tldextract = "*"
+validators = "*"
+streamlit = "*"
+plotly = "*"
+grandalf = "*"
+scapy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
